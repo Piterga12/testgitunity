@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Se ha de activar en project settings/player/ y en el ultimo desplegable buscar donde exactamente
 #if __DEBUG_AVAILABLE__
 using UnityEditor;
 #endif
@@ -10,7 +11,7 @@ public class Enemies : MonoBehaviour
 {
     public Transform player;
 
-    public float speed = 2;
+    public float speed = 4;
 
     public float followSpeed = 0.2f;
     public float followDistance = 10;
